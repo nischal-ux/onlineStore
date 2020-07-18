@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="8dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image1"
+            android:background="@mipmap/shams"
+            android:layout_width="200dp"
+            android:layout_height="250dp"/>
+        <TextView
+            android:id="@+id/id"
+            android:layout_below="@+id/image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Potatoes"
+            />
+        <TextView
+            android:id="@+id/cat"
+            android:layout_below="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            />
+        <TextView
+            android:id="@+id/name"
+            android:layout_below="@+id/cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs.200"
+            />
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/m"
+            android:layout_below="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/remove"
+            />
+        <EditText
+            android:id="@+id/quantity"
+            android:layout_toRightOf="@id/m"
+            android:layout_below="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            />
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/p"
+            android:layout_toRightOf="@+id/quantity"
+            android:layout_below="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/add"
+            />
+        <Button
+            android:layout_marginLeft="50dp"
+            android:layout_toRightOf="@+id/p"
+            android:layout_below="@+id/name"
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

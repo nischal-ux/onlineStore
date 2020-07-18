@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@mipmap/shams"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/account"
+            />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:text="Hello Wlcome to ShamsOnline"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/login1"
+            android:layout_marginTop="160dp"
+            android:layout_width="wrap_content"
+            android:text="Login/SignUP"
+            android:layout_height="wrap_content"/>
+        <ImageView
+
+            android:layout_width="wrap_content"
+           android:background="@drawable/ic_settings_black_24dp"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:text="MyOreders"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+           android:text="View All"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="20dp"
+            android:padding="5dp"
+            android:orientation="horizontal"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+
+                android:layout_marginRight="5dp"
+                android:id="@+id/first"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/ic_payment_black_24dp"
+                    />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ToPay"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="20dp"
+                android:id="@+id/second1"
+                android:layout_toRightOf="@+id/first"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/ic_rate_review_black_24dp"
+                    />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TO Review"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="20dp"
+                android:id="@+id/third1"
+                android:layout_toRightOf="@+id/second1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/ic_star_border_black_24dp"
+                    />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My Returns"/>
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_marginRight="20dp"
+                android:id="@+id/add"
+                android:layout_toRightOf="@+id/third1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/cart"
+                    />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My ..."/>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:text="My Services"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:text="View All"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="20dp"
+            android:padding="5dp"
+            android:orientation="horizontal"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+
+                android:layout_marginRight="5dp"
+                android:id="@+id/first"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/message"
+                    />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Messages"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="20dp"
+                android:id="@+id/second"
+                android:layout_toRightOf="@+id/first"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/ic_rate_review_black_24dp"
+                    />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My Review"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="20dp"
+                android:id="@+id/third"
+                android:layout_toRightOf="@+id/second"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/ic_payment_black_24dp"
+                    />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Payment Option"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="20dp"
+                android:id="@+id/four"
+                android:layout_toRightOf="@+id/third"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/ic_help_black_24dp"
+                    />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Help"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

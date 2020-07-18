@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:text="Messages"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:text="View All"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="20dp"
+            android:padding="5dp"
+            android:orientation="horizontal"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+
+                android:layout_marginRight="5dp"
+                android:id="@+id/first"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/ic_chat_black_24dp"
+                    />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chat"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="20dp"
+                android:id="@+id/second"
+                android:layout_toRightOf="@+id/first"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/ic_star_border_black_24dp"
+                    />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="20dp"
+                android:id="@+id/third"
+                android:layout_toRightOf="@+id/second"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/ic_notifications_none_black_24dp"
+                    />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Notification"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginRight="20dp"
+                android:id="@+id/four"
+                android:layout_toRightOf="@+id/third"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/ic_stay_primary_landscape_black_24dp"
+                    />
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Promos"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:text="Login for more offers!"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:text="Login to recive order updates,special deals and exclsive offers"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <Button
+            android:id="@+id/login"
+           android:layout_marginHorizontal="250dp"
+            android:layout_centerVertical="true"
+
+            android:layout_width="80dp"
+            android:text="Login"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+</LinearLayout>

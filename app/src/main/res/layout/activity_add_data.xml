@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".AddData">
+
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imagetobeUpload"
+                android:scaleType="centerCrop"
+                />
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Details"
+            android:textSize="28sp"
+            />
+        <EditText
+            android:focusableInTouchMode="true"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Name:"
+            android:id="@+id/edtName"
+            android:layout_marginTop="20dp"
+            android:inputType="textPersonName"
+            />
+        <EditText
+            android:focusableInTouchMode="true"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Price:"
+            android:id="@+id/edtprice"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Category"
+            android:id="@+id/cateory"
+            android:layout_marginTop="10dp"
+            android:inputType="text"
+            />
+
+        <Button
+
+            android:id="@+id/btnInsert"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+
+            android:text="INSERT Data"
+
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+</ScrollView>

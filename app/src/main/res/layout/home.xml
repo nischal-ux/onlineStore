@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="5dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+
+    <ImageView
+
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:background="@drawable/account"
+        android:layout_height="match_parent"/>
+    <ScrollView
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+
+        android:layout_height="match_parent">
+
+<EditText
+   android:gravity="center"
+    android:layout_width="match_parent"
+
+    android:hint="Search in sham store"
+    android:layout_height="match_parent"/>
+    </ScrollView>
+
+</LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:background="@mipmap/cover"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"/>
+            <ImageView
+                android:background="@mipmap/co"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"/>
+                <LinearLayout
+
+                    android:padding="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ic_phone_iphone_black_24dp"
+                            />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Recharge n eStore"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ic_collections_black_24dp"
+                            />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Collections"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ic_payment_black_24dp"
+                            />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Prepayement"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            <LinearLayout
+
+                android:padding="5dp"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/home"
+                        />
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Shams mall"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_help_black_24dp"
+                        />
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Help Center"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cart"
+                        />
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Categories"/>
+                </LinearLayout>
+
+            </LinearLayout>
+           <LinearLayout
+               android:padding="5dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <TextView
+                   android:layout_weight="1"
+                   android:layout_width="wrap_content"
+                 android:text="Collections"
+                   android:layout_height="wrap_content"
+               />
+               <TextView
+
+                   android:layout_width="wrap_content"
+                   android:text="Shop more >"
+                   android:layout_height="wrap_content"
+                   />
+
+           </LinearLayout>
+
+            <HorizontalScrollView
+
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="sdas"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="sdas"/>
+                        <ImageView
+                            android:background="@drawable/cart"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="sdas"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="sdas"/>
+                        <ImageView
+                            android:background="@drawable/cart"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="sdas"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="sdas"/>
+                        <ImageView
+                            android:background="@drawable/cart"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="sdas"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="sdas"/>
+                        <ImageView
+                            android:background="@drawable/cart"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:text="Categories"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:text="Shop more >"
+                    android:layout_height="wrap_content"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <RelativeLayout
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="20dp"
+                    android:padding="5dp"
+                    android:orientation="horizontal"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="320dp">
+                    <LinearLayout
+
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/first"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/cart"
+                            />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Toothpaste"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginRight="20dp"
+                        android:id="@+id/second"
+                        android:layout_toRightOf="@+id/first"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/cart"
+                            />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Soap"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginRight="20dp"
+                        android:id="@+id/third"
+                        android:layout_toRightOf="@+id/second"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/cart"
+                            />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Food"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginRight="20dp"
+                        android:id="@+id/four"
+                        android:layout_toRightOf="@+id/third"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/cart"
+                            />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="oil"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/fi"
+                        android:layout_below="@+id/first"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/cart"
+                            />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="wrap_content"
+                            android:text="Collections"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:id="@+id/se"
+                        android:layout_toRightOf="@id/fi"
+                        android:layout_below="@+id/second"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/cart"
+                            />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Collections"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:id="@+id/t"
+                        android:layout_below="@+id/third"
+                        android:layout_toRightOf="@+id/se"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/cart"
+                            />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Collections"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:id="@+id/f"
+                        android:layout_toRightOf="@+id/t"
+                        android:layout_below="@+id/four"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/cart"
+                            />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Collections"/>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+             android:textSize="20dp"
+                android:text="Just for U"
+                />
+            <LinearLayout
+android:layout_weight="1"
+                android:orientation="horizontal"
+     android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <GridView
+                    android:numColumns="2"
+                    android:orientation="horizontal"
+                    android:id="@+id/cont1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
